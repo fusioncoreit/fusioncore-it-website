@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | FusionCore IT</title>
+  <meta name="description" content="Get in touch with FusionCore IT for a free consultation on cloud infrastructure or IT strategy." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%236366f1%22/><text x=%2216%22 y=%2221%22 font-size=%2212%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22sans-serif%22 font-weight=%22bold%22>FC</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">FC</span>
+        FusionCore IT
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary">Get a Consultation</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero" style="padding-bottom:0;">
+      <div class="glow glow-cyan" style="width:380px;height:380px;top:-100px;left:10%;"></div>
+      <div class="glow glow-violet" style="width:380px;height:380px;top:-60px;right:5%;"></div>
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+        <div class="section-head center">
+          <div class="eyebrow" style="justify-content:center;">Get in Touch</div>
+          <h1>Let's talk about your infrastructure.</h1>
+          <p class="lead mt-24">Tell us a bit about your project or challenge. We reply to every inquiry within one business day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="contact-layout">
+          <div class="reveal">
+            <h3 style="margin-bottom:24px;">What to expect</h3>
+
+            <div class="contact-info-item">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              </div>
+              <div>
+                <h4>Fast response</h4>
+                <p>We reply within one business day, usually sooner.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              </div>
+              <div>
+                <h4>Free initial consultation</h4>
+                <p>A 30-minute call to understand your goals — no pitch, no pressure.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg>
+              </div>
+              <div>
+                <h4>A clear proposal</h4>
+                <p>If it's a fit, you'll get a fixed-scope proposal with timeline and pricing — no surprises.</p>
+              </div>
+            </div>
+
+            <div class="map-placeholder">
+              Serving clients remotely &amp; on-site by arrangement
+            </div>
+          </div>
+
+          <div class="form-card reveal">
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">Full name</label>
+                  <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+                </div>
+                <div class="field">
+                  <label for="email">Work email</label>
+                  <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="company">Company</label>
+                  <input type="text" id="company" name="company" placeholder="Company name" />
+                </div>
+                <div class="field">
+                  <label for="service">I'm interested in</label>
+                  <select id="service" name="service">
+                    <option value="cloud">Cloud &amp; Infrastructure</option>
+                    <option value="strategy">IT Strategy &amp; Managed Services</option>
+                    <option value="both">Both / Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="message">Tell us about your project</label>
+                <textarea id="message" name="message" placeholder="What are you working on, and what's the timeline?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <p class="form-note">By submitting, you agree to be contacted about your inquiry. We don't share your information with third parties.</p>
+            </form>
+
+            <div class="form-success" id="form-success">
+              <div class="icon">✓</div>
+              <h3>Message sent</h3>
+              <p class="mt-24">Thanks for reaching out — we'll get back to you within one business day.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="brand">
+            <span class="brand-mark">FC</span>
+            FusionCore IT
+          </a>
+          <p>Cloud infrastructure and IT strategy consulting for growing businesses.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#cloud">Cloud &amp; Infrastructure</a></li>
+            <li><a href="services.html#strategy">IT Strategy &amp; Managed Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:fusioncoreit@outlook.com">fusioncoreit@outlook.com</a></li>
+            <li><a href="contact.html">Send a message</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> FusionCore IT. All rights reserved.</span>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter / X">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
