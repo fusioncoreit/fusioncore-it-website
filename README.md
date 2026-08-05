@@ -21,7 +21,7 @@ fusioncore-it-website/
    (`action="https://formspree.io/f/YOUR_FORM_ID"` in `contact.html`).
    - Sign up free at https://formspree.io, create a form, and swap `YOUR_FORM_ID`
      for your real form ID. Formspree emails submissions straight to your inbox
-     (e.g. fusioncoreit@outlook.com) — no server needed.
+     (e.g. info@fusioncoreit.co.uk) — no server needed.
    - Alternatives: Netlify Forms (if hosting on Netlify, just add `netlify` and
      `data-netlify="true"` attributes to the `<form>`), or Getform, Web3Forms, etc.
 
