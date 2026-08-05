@@ -207,6 +207,17 @@ p {
    Header / Nav
    ========================================================================== */
 
+.announce-bar {
+  background: rgba(245, 158, 11, 0.08);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 16px;
+  letter-spacing: 0.01em;
+}
+
 .site-header {
   position: sticky;
   top: 0;
